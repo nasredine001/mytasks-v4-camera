@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "MyTasks V4",
+    "slug": "mytasks-v4-camera",
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "MyTasks utilise la caméra pour ajouter une photo à une tâche.",
+          "microphonePermission": false,
+          "recordAudioAndroid": false
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "MyTasks utilise ta position pour te rappeler une tâche quand tu arrives à un lieu."
+        }
+      ],
+      "expo-notifications",
+      "expo-sharing",
+      "@react-native-community/datetimepicker",
+      "expo-font"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

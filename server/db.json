@@ -1,0 +1,67 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Préparer la présentation",
+      "description": "Réaliser les diapositives pour la présentation du projet.",
+      "priority": "elevee",
+      "status": "a_faire",
+      "createdAt": "2025-04-12T09:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "title": "Lire la documentation",
+      "description": "Lire la documentation de React Native.",
+      "priority": "faible",
+      "status": "terminee",
+      "createdAt": "2025-04-12T10:00:00.000Z"
+    },
+    {
+      "id": "1795030680070",
+      "title": "Test file upload",
+      "description": "",
+      "priority": "moyenne",
+      "status": "a_faire",
+      "createdAt": "2026-11-18T19:38:00.070Z",
+      "image": null,
+      "files": [
+        {
+          "id": "1795030644608",
+          "name": "mytasks-test.txt",
+          "mimeType": "text/plain",
+          "size": 45
+        }
+      ],
+      "reminder": null,
+      "location": null,
+      "observers": [
+        "Sara"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "id": "1795030644608",
+      "name": "mytasks-test.txt",
+      "mimeType": "text/plain",
+      "size": 45,
+      "data": "77u/SGVsbG8gZnJvbSB0aGUgTXlUYXNrcyBmaWxlIHVwbG9hZCB0ZXN0Lg0K"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1795030924898",
+      "task": "1795030680070",
+      "author": "Sara",
+      "text": "Test d commentaire Sara",
+      "createdAt": "2026-11-18T19:42:04.898Z"
+    },
+    {
+      "id": "1795030956883",
+      "task": "1795030680070",
+      "author": "Ali",
+      "text": "Question sur le fichier joint",
+      "createdAt": "2026-11-18T19:42:36.884Z"
+    }
+  ]
+}
